@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    /* Styles specific to small screens go here */
+    .cardBG {
+      background-color: transparent; /* Example: Change background color to white */
+      color: #000; /* Example: Change text color to black */
+    }
+  .TopText{
+    color: white;
+  }
+    /* Add more styles as needed */
+  }

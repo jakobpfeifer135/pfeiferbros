@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --Green: #04E762;
+    --Purple: #552398;
+  }
+
+  /* @import '~bootstrap/dist/css/bootstrap.min.css'; */
