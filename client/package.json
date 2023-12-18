@@ -6,11 +6,10 @@
   "engines": {
     "node": "14.x",
     "npm": "6.x"
-  }
-,  
+  },
   "scripts": {
     "dev": "vite",
-    "build": "npm install vite && vite build",
+  "build": "npm install --only=dev && npm install vite && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -37,12 +36,13 @@
     "react-transition-group": "^4.4.5",
     "react-type-animation": "^3.2.0",
     "slick-carousel": "^1.8.1",
-    "vite": "^5.0.10"
+    "vite": "^5.0.10",
+    "@vitejs/plugin-react": "^4.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
-    "@vitejs/plugin-react": "^4.2.0",
+    
     "autoprefixer": "^10.4.16",
     "eslint": "^8.53.0",
     "eslint-plugin-react": "^7.33.2",
@@ -53,6 +53,5 @@
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.5"
-    
   }
 }
