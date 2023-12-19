@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-require('dotenv').config();
+// const mongoose = require('mongoose');
+// require('dotenv').config();
 
-mongoose.connect(process.env.MONGODB_URI || process.env.CONN_STRING);
+// mongoose.connect(process.env.MONGODB_URI || process.env.CONN_STRING);
 
-module.exports = mongoose.connection;
+// module.exports = mongoose.connection;
