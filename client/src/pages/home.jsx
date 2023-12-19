@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const AboutUs = () => {
+const Home = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 1 } },
@@ -126,4 +126,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Home;
