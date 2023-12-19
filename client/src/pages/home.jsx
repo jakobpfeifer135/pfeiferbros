@@ -27,7 +27,8 @@ const Home = () => {
       >
         <motion.div className="sm:w-1/2 p-10" variants={imageVariants}>
           <div className="image object-center text-center">
-            <img src="../src/assets/aboutuspic.webp" alt="Company Logo" />
+          <img src="/assets/aboutuspic.webp" alt="Company Logo" />
+
           </div>
         </motion.div>
         <motion.div className="sm:w-1/2 p-5" variants={textVariants}>
