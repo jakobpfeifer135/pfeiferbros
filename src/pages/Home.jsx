@@ -61,7 +61,7 @@ const Home = () => {
               <p className="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-center text-gray-900 sm:text-4xl">
                Needing a website? Needing guidance? Pfeifer Bros. has you covered!
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif'}} className="mt-4 max-w-2xl text-lg text-center text-gray-500 lg:mx-auto">
+              <p style={{ fontFamily: 'DM Sans, sans-serif'}} className="mt-4 max-w-2xl text-lg text-center text-gray-500 mx-auto">
               Transforming visions into vibrant websites. With a passion for innovation and deep software expertise, Pfeifer Bros. delivers exceptional, user-friendly, digital experiences. Choose us for tailored, cutting-edge, web development.
               </p>
             </div>
