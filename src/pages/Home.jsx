@@ -55,11 +55,11 @@ const Home = () => {
         <div className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:text-center">
-              <h2 className="font-heading mb-8 bg-[--Purple] text-white px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest  uppercase title-font ">
+              <h2 className="font-heading mb-8 bg-[--Purple] text-white px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest  uppercase title-font text-center">
                 Why choose us?
               </h2>
               <p className="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
-                We know Tech, we know Web Development. We are Software Developers.
+               Needing a website? Needing guidance? Pfeifer Bros has you covered!
               </p>
               <p style={{ fontFamily: 'DM Sans, sans-serif'}} className="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
               Transforming visions into vibrant websites. With a passion for innovation and deep software expertise, Pfeifer Bros delivers exceptional, user-friendly digital experiences. Choose us for tailored, cutting-edge web development.
@@ -73,10 +73,10 @@ const Home = () => {
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
                       <img src="https://www.svgrepo.com/show/503163/api-settings.svg" alt="API Icon" />
                     </div>
-                    <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Integrate API's</p>
+                    <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Integrate APIs</p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Seamlessly connect and enhance your digital ecosystem with our expert API integration services
+                  Seamlessly connect and enhance your digital ecosystem with our expert API integration services.
                   </dd>
                 </div>
                 <div className="relative">
@@ -98,7 +98,7 @@ const Home = () => {
                                 className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
                                 <img src="https://www.svgrepo.com/show/416639/website-ui-web.svg"/ >
                             </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Website Performance Optimization
+                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Website Performance Optimization.
                             </p>
                         </dt>
                         <dd className="mt-2 ml-16 text-base text-gray-500"> Boost your website's speed and efficiency with our Performance Optimization services. Elevate user experience, enhance loading times, and optimize overall functionality.
@@ -111,7 +111,7 @@ const Home = () => {
                                 <img src="https://www.svgrepo.com/show/494032/communication-2.svg"/ >
 
                             </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Reliable Communication
+                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Reliable Communication.
                             </p>
                         </dt>
                         <dd className="mt-2 ml-16 text-base text-gray-500"> Experience reliable communication at its best. Pfeifer Bros ensures seamless and transparent interactions, providing a trustworthy partnership for your business needs.
