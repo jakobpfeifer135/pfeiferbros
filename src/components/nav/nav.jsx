@@ -15,7 +15,7 @@ const Nav = () => {
       <span className="no-wrap flex items-center hover:text-[#b34bee]">
         <span  className="no-wrap">Pfeifer</span>
         <FaReact className="text-[#b34bee] text-4xl mx-2" />
-        <span className="no-wrap"> Bros</span>
+        <span className="no-wrap"> Bros.</span>
       </span>
     </Link>
 
