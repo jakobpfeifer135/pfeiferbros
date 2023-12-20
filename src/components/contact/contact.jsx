@@ -36,7 +36,7 @@ const Contact = () => {
     }
   };
 
-  const inputs = ['first-name', 'last-name', 'email', 'phone-number', 'company', 'message']; // Include 'company' in the inputs
+  const inputs = ['First-Name', 'Last-Name', 'Email', 'Phone-Number', 'Company', 'Message']; // Include 'company' in the inputs
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -119,7 +119,7 @@ const Contact = () => {
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Please allow us 48 hours for response
+          Please allow us 48 hours for a response.
         </p>
       </div>
       <form
