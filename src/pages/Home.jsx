@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
       <motion.div
-        className="sm:flex items-center max-w-screen-xl mt-10"
+        className="sm:flex items-center max-w-screen-xl mt-10 mx-auto"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
