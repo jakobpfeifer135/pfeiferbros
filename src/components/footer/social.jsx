@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-gradient-radial relative overflow-hidden">
-      <div className="container mx-auto flex items-center justify-center p-4 md:p-9 transition-all duration-500">
+      <div className="container mx-auto flex items-center justify-center  transition-all duration-500">
         {/* Social Icons */}
 
         <div className="social-icons">

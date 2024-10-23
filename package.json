@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "pfeiferbros",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -7,11 +7,13 @@
     "node": "14.x",
     "npm": "6.x"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",    
+    "dev": "vite",      
+    "build": "vite build", 
+    "serve": "vite preview", 
+    "seed": "cd server && npm run seed"
   },
   "dependencies": {
     "@apollo/client": "^3.7.14",
