@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import "./Nav.css"; // Import custom styles
+import "./Nav.css"; 
 
 const Nav = () => {
   return (
@@ -10,7 +10,7 @@ const Nav = () => {
        
           <span className="no-wrap flex items-center hover:text-[#b34bee]">
             <img
-              src="/public/assets/Logo.png"
+              src="/assets/Logo.png"
               alt="Pfeifer Bros Logo"
               className="w-44 h-42 mt-2" 
             />
